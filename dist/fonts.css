@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../src/assets/fonts/ProximaNova-Regular.eot');
+    src: url('../src/assets/fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../src/assets/fonts/ProximaNova-Regular.woff2') format('woff2'),
+        url('../src/assets/fonts/ProximaNova-Regular.woff') format('woff'),
+        url('../src/assets/fonts/ProximaNova-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'FuturaBookC';
+    src: url('../src/assets/fonts/FuturaBookC.eot');
+    src: url('../src/assets/fonts/FuturaBookC.eot?#iefix') format('embedded-opentype'),
+        url('../src/assets/fonts/FuturaBookC.woff2') format('woff2'),
+        url('../src/assets/fonts/FuturaBookC.woff') format('woff'),
+        url('../src/assets/fonts/FuturaBookC.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'FuturaDemiC';
+    src: url('../src/assets/fonts/FuturaDemiC.eot');
+    src: url('../src/assets/fonts/FuturaDemiC.eot?#iefix') format('embedded-opentype'),
+        url('../src/assets/fonts/FuturaDemiC.woff2') format('woff2'),
+        url('../src/assets/fonts/FuturaDemiC.woff') format('woff'),
+        url('../src/assets/fonts/FuturaDemiC.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'FuturaMediumC';
+    src: url('../src/assets/fonts/FuturaMediumC.eot');
+    src: url('../src/assets/fonts/FuturaMediumC.eot?#iefix') format('embedded-opentype'),
+        url('../src/assets/fonts/FuturaMediumC.woff2') format('woff2'),
+        url('../src/assets/fonts/FuturaMediumC.woff') format('woff'),
+        url('../src/assets/fonts/FuturaMediumC.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Yeseva One';
+    src: url('../src/assets/fonts/YesevaOne.eot');
+    src: url('../src/assets/fonts/YesevaOne.eot?#iefix') format('embedded-opentype'),
+        url('../src/assets/fonts/YesevaOne.woff2') format('woff2'),
+        url('../src/assets/fonts/YesevaOne.woff') format('woff'),
+        url('../src/assets/fonts/YesevaOne.ttf') format('truetype');
+}

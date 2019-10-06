@@ -1,0 +1,204 @@
+$color-black:#131313;
+$color-sand:#E3B873;
+
+$font-C:"FuturaBookC";
+$font-Demi: "FuturaDemiC";
+$font-Y: 'Yeseva One';
+
+
+
+@mixin flex($alignj:center, $aligna:center) {
+    display: flex;
+    justify-content: $alignj;
+    align-items: $aligna;
+
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+    
+}
+
+@media only screen and (min-width: 375px) and (max-width: 1440px){
+    
+    .header{
+        width: 100%;
+        height: 10vh;
+        @include flex($alignj:space-around);
+        font-size: 14px;
+        background-color: $color-black;
+        text-transform: uppercase;
+        .logo{
+            @include flex();
+            color: $color-sand;
+            font-family: $font-Demi;
+        }
+        h1{
+            width: 0px;
+            visibility: hidden;
+        }
+        .navigation{
+            @include flex($alignj:space-between);
+            color: white;
+            font-family: $font-C;
+            .navigation__elem{
+                @include flex();
+                padding: 5%;
+            }
+            .navigation__elem_active{
+                color: $color-sand;
+                
+            }
+        }
+        .tel{
+            color: $color-sand;
+            font-family: $font-Demi;
+        }
+        .button_yellow{
+            width: 161px;
+            height: 37px;
+            background-color: $color-sand;
+            @include flex();
+            color: #ffffff;
+            font-size: 13px;
+            border: 0px solid transparent;
+            border-radius: 3%;
+            font-family: $font-Demi;
+        }
+    }
+    .main{
+        width: 100%;
+    }
+    .main-high-container{
+        position: relative;
+        width: 100%;
+        height: 80vh;
+        @include flex();
+        .instagram{
+            width: 6%;
+            background-color: $color-black;
+            height: 100%;
+            @include flex();
+            .instagram__text{
+                @include flex($alignj:space-around);
+                height: 30%;
+                font-size: 14px;
+                text-orientation: mixed;
+                writing-mode: vertical-rl;
+                .instagram__link{
+                    color:$color-sand;
+                    font-family: $font-Demi;
+                    text-decoration: none;
+                }
+                .instagram__line_long{
+                    width: 51px;
+                    height: 1px;
+                    background-color: $color-sand;
+                    transform: rotate(90deg);
+                }
+            }
+        }
+    }
+    .scroll-block{
+        position: absolute;
+        left: 0px;
+        top: 544px;
+        height: 97px;
+        width: 247px;
+        background-color: $color-black;
+        color: #ffffff;
+    }
+    .main-screen{
+        width: 94%;
+        height: 100%;
+        @include flex();
+        background: url('../assets/img/image\ 4.3.jpg');
+        .main-screen-shadow{
+        width: 100%;
+        height: 100%;
+        @include flex($alignj:flex-start);
+        background-color: #13131399;
+        .text-block{
+            width: 45%;
+            padding: 5%;
+            @include flex($alignj:space-between, $aligna:flex-start);
+            flex-direction: column;
+            .text-block__h2-repair{
+                font-family: $font-Y;
+                font-size: 40px;
+                font-weight: 300;
+                color: #ffffff;
+                .text-block__span{
+                    color: $color-sand;
+                }
+            }
+            .text-block__p-text{
+                font-family: $font-C;
+                font-size: 22px;
+                color: #ffffff;
+            }
+            .buttons-block{
+                @include flex($alignj:space-around);
+                width: 90%;
+                .buttons-block__button{
+                    width: 207px;
+                    height: 51px;
+                    color: #ffffff;
+                    font-size: 13px;
+                    font-family: $font-Demi;
+                    background-color: transparent;
+                    border: 1px solid #ffffff;
+                    border-radius: 5px;
+                }
+                .buttons-block__button_yellow{
+                    background-color: $color-sand;
+                    border: 1px solid transparent;
+                }
+            }
+        }
+        }   
+    }
+    .footer{
+        width: 100%;
+        height: 10vh;
+        @include flex($alignj:space-around);
+        font-size: 14px;
+        background-color: $color-black;
+        text-transform: uppercase;
+        .logo{
+            @include flex();
+            color: $color-sand;
+            font-family: $font-Demi;
+        }
+        h1{
+            width: 0px;
+            visibility: hidden;
+        }
+        .navigation{
+            @include flex($alignj:space-between);
+            color: white;
+            font-family: $font-C;
+            .navigation__elem{
+                @include flex();
+                padding: 5%;
+            }
+            .navigation__elem_active{
+                color: $color-sand;
+                
+            }
+        }
+        .tel{
+            color: $color-sand;
+            font-family: $font-Demi;
+        }
+        .button_yellow{
+            background-color: $color-sand;
+            @include flex();
+            color: #ffffff;
+            width: 161px;
+            height: 37px;
+            border: 0px solid transparent;
+            border-radius: 3%;
+            font-family: $font-Demi;
+        }
+    }
+ }
