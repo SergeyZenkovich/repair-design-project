@@ -67,21 +67,21 @@
                         Only a small part of the work performed by our company is presented on the site. For 14 years on in the construction market we have made happy more than 1000 families
                     </p>
                     <div class="info-elements">
-                        <div class="info-element">
-                            <h4 class="info-element__heading">City:</h4>
-                            <p class="info-element__p-text">Rostov-on-Don LCD admiral</p>
+                        <div class="info-elements__info-element">
+                            <h4 class="info-elements__heading">City:</h4>
+                            <p class="info-elements__p-text">Rostov-on-Don LCD admiral</p>
                         </div>
-                        <div class="info-element">
-                            <h4 class="info-element__heading">apartment area:</h4>
-                            <p class="info-element__p-text">81 m<sup>2</sup></p>
+                        <div class="info-elements__info-element">
+                            <h4 class="info-elements__heading">apartment area:</h4>
+                            <p class="info-elements__p-text">81 m<sup>2</sup></p>
                         </div>
-                        <div class="info-element">
-                            <h4 class="info-element__heading">Repair time:</h4>
-                            <p class="info-element__p-text">3.5 months</p>
+                        <div class="info-elements__info-element">
+                            <h4 class="info-elements__heading">Repair time:</h4>
+                            <p class="info-elements__p-text">3.5 months</p>
                         </div>
-                        <div class="info-element">
-                            <h4 class="info-element__heading">Repair Cost:</h4>
-                            <p class="info-element__p-text">Upon request</p>
+                        <div class="info-elements__info-element">
+                            <h4 class="info-elements__heading">Repair Cost:</h4>
+                            <p class="info-elements__p-text">Upon request</p>
                         </div>
                         <div class="arrows-paginator">
                             <span class="arrows-paginator__arrow_left"></span>
@@ -95,38 +95,56 @@
                     </div>
                 </div>
                 <div class="project-slider">
-                    <img class ="project-slider__img" src="" alt="">
-                    <span class="slider-next"></span>
-                    <img class ="project-slider__img" src="" alt="">
+                    <img class ="project-slider__img" src="src/assets/img/slider.jpg" alt="first-view">
+                    <img class="slider-next" src="src/assets/img/Group 8.1.svg" alt="next">
+                    <img class ="project-slider__img" src="src/assets/img/slider2.jpg" alt="second-view">
                 </div>
             </div>
         </section>
         <section class="online-control">
             <div class="section-head">
                 <h3 class="section-head__heading">online control</h3>
-                <img class="section-head__img" src="" alt="" >
+                <div class="section-head__img-div">
+                        <span class="section-head__line"></span>
+                        <img class="section-head__img" src="src/assets/img/Group.svg" alt="" >
+                        <span class="section-head__line"></span>
+                </div>
+                
             </div>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLx0sYbCqOb8TBPRdmBHs5Iftvv9TPboYG" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <iframe width="70%" height="500" src="https://www.youtube.com/embed/Gi5pCRt2Ns4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <span class="line-mid"></span>
             <p class="control-text">At each facility, a camera is installed that broadcasts the progress of work on the clock. At any time, you can go to our website and monitor the progress of work in your apartment. You can watch the live broadcast from one of our facilities! Leave a request below and you will receive a link to the broadcast.</p>
             <form class="two-Field-Form" action="" method="get">
+                <div class="two-Field-Form__div">
                     <label class ="two-Field-Form__label"for="name">Name</label>
                     <input class ="two-Field-Form__text-input" type="text" name="lname" id="name" placeholder="What is your name:">
                     <label class ="two-Field-Form__label"for="phone">Phone</label>
-                    <input class ="two-Field-Form__text-input" type="phone" name="phone" id="phone" placeholder="Your phone number:">
+                    <input class ="two-Field-Form__text-input" type="tel" name="phone" id="phone" placeholder="Your phone number:">
                     <input class ="two-Field-Form__text-submit"type="submit" value="SUBMIT">
-                    <input class ="two-Field-Form__check" type="checkbox" id="check" required >
-                    <label class = "two-Field-Form__check-label"for="check">I agree to the processing of personal data</label>
-            </form>
+                </div>
+                    
+                    <div class="two-Field-Form__check">
+                            <div class="squaredThree">
+                                    <input type="checkbox" value="None" id="squaredThree" name="check" checked />
+                                    <label for="squaredThree"></label>
+                            </div>
+                        <input class ="two-Field-Form__checkbox" type="checkbox" id="check" required >
+                        <label class = "two-Field-Form__check-label"for="check">I agree to the processing of personal data</label>
+                    </div> 
+                    </form>
         </section>
         <section class="types-of-Repair">
             <div class="section-head">
                 <h3 class="section-head__heading">TYPES OF REPAIR</h3>
-                <img class="section-head__img" src="" alt="" >
+                <div class="section-head__img-div">
+                        <span class="section-head__line"></span>
+                        <img class="section-head__img" src="src/assets/img/Vector.svg" alt="" >
+                        <span class="section-head__line"></span>
+                </div>
             </div>
             <div class="Type-Container">
                     <div class="Type-Block">
-                        <img src="" alt="" class="Type-Block__img">
+                        <img class="Type-Block__img" src="src/assets/img/mask.jpg" alt="" >
                         <ul class="Type-Block__ul">
                                 Redecorating
                             <li class="Type-Block__li">Dismantling of old coatings</li>
@@ -140,7 +158,7 @@
                         <button class="Type-Block__button">from 900 rub / m2</button>
                     </div>
                     <div class="Type-Block">
-                            <img src="" alt="" class="Type-Block__img">
+                            <img class="Type-Block__img" src="src/assets/img/mask2.jpg" alt="" >
                             <ul class="Type-Block__ul">
                                     Overhaul
                                 <li class="Type-Block__li">Dismantling of old coatings</li>
@@ -154,7 +172,7 @@
                             <button class="Type-Block__button">from 1800 rub / m2</button>
                     </div>
                     <div class="Type-Block">
-                            <img src="" alt="" class="Type-Block__img">
+                            <img class="Type-Block__img" src="src/assets/img/mask3.jpg" alt="" >
                             <ul class="Type-Block__ul">
                                     Designer Repair
                                 <li class="Type-Block__li">Dismantling of old coatings</li>
@@ -171,17 +189,22 @@
             <div class="block-with-form">
                 <div class="circle-image-block">
                     <div class="circle-block">
-                        <div class="circle-block__little-circle-block">
+                        
+                        <div class="circle-block__little-circle-block little1">
+                            <span class="circle-block__little-circle">01</span>
                             <p class="circle-block__text">Our specialist will arrive for measurements per day contact, or appoint a date convenient for you</p>
                         </div>
-                        <div class="circle-block__little-circle-block">
-                                <p class="circle-block__text">Free metering</p>
+                        <div class="circle-block__little-circle-block little2">
+                            <span class="circle-block__little-circle">02</span>
+                            <p class="circle-block__text">Free metering</p>
                         </div>
-                        <div class="circle-block__little-circle-block">
-                                <p class="circle-block__text">Free consultation</p>
+                        <div class="circle-block__little-circle-block little3">
+                            <span class="circle-block__little-circle">03</span>
+                            <p class="circle-block__text">Free consultation</p>
                         </div>
-                        <div class="circle-block__little-circle-block">
-                                <p class="circle-block__text">Get a cost estimate and the timing of your future repairs</p>
+                        <div class="circle-block__little-circle-block little4">
+                            <span class="circle-block__little-circle">04</span>
+                            <p class="circle-block__text">Get a cost estimate and the timing of your future repairs</p>
                         </div>
                     </div>
                 </div>
@@ -194,53 +217,75 @@
                                 <input class ="black-form__text-input" type="phone" name="phone" id="phone" placeholder="Your phone number:">
                                 <label class ="black-form__label"for="email">Email</label>
                                 <input class ="black-form__text-input" type="email" name="phone" id="email" placeholder="Your email:">
-                                <input class ="black-form__check" type="checkbox" id="check" reqiured >
-                                <label class = "black-form__check-label"for="check">I agree to the processing of personal data</label>
+
+
+                                <div class="check">
+                                        <div class="squaredThree">
+                                                <input type="checkbox" value="None" id="squaredThree" name="check" checked />
+                                                <label for="squaredThree"></label>
+                                        </div>
+                                        <input class ="black-form__check" type="checkbox" id="check" reqiured >
+                                        <label class = "black-form__check-label"for="check">I agree to the processing of personal data</label>        
+                                </div>
                                 <input class ="black-form__text-submit"type="submit" value="Call the measurer">
                             </form>
-                        <div class="tip-block">
-                            <img class="tip-block__img" src="" alt="" >
-                            <p class="tip-block__p-text">Help save 10 - 20% of the cost of materials</p>
-                        </div>
+                        
                 </div>
+                <div class="tip-block">
+                        <img class="tip-block__img" src="src/assets/img/sale.svg" alt="" width="74px" height="74px">
+                        <p class="tip-block__p-text">Help save 10 - 20% of the cost of materials</p>
+                    </div>
                
             </div>
             <div class="wild-fantasy-images-block">
-                <h3 class="wild-fantasy-images-block__heading">We realize your wildest fantasies</h3>
-                <ul class="wild-fantasy-images-block__ul">
-                    <li class="wild-fantasy-images-block__li wild-fantasy-images-block__li_active">American classic</li>
-                    <li class="wild-fantasy-images-block__li">Empire</li>
-                    <li class="wild-fantasy-images-block__li">Classical</li>
-                    <li class="wild-fantasy-images-block__li">Loft</li>
-                    <li class="wild-fantasy-images-block__li">Minimalism</li>
-                    <li class="wild-fantasy-images-block__li">Provence</li>
-                    <li class="wild-fantasy-images-block__li">Romanticism</li>
-                    <li class="wild-fantasy-images-block__li">Scandinavian style</li>
-                    <li class="wild-fantasy-images-block__li">Mediterranean style</li>
-                    <li class="wild-fantasy-images-block__li">High tech</li>
-                    <li class="wild-fantasy-images-block__li">Eclecticism</li>
-                </ul>
+                <div class="fantasy-shadow">
+                <div class="fantasy-left">
+                        <h3 class="wild-fantasy-images-block__heading">We realize your wildest fantasies</h3>
+                        <ul class="wild-fantasy-images-block__ul">
+                            <li class="wild-fantasy-images-block__li wild-fantasy-images-block__li_active"> <a href="">American classic</a> </li>
+                            <li class="wild-fantasy-images-block__li"><a href="#">Empire</a></li>
+                            <li class="wild-fantasy-images-block__li"><a href="#">Classical</a></li>
+                            <li class="wild-fantasy-images-block__li"><a href="#">Loft</a></li>
+                            <li class="wild-fantasy-images-block__li"><a href="#">Minimalism</a></li>
+                            <li class="wild-fantasy-images-block__li"><a href="#">Provence</a></li>
+                            <li class="wild-fantasy-images-block__li"><a href="#">Romanticism</a></li>
+                            <li class="wild-fantasy-images-block__li"><a href="#">Scandinavian style</a></li>
+                            <li class="wild-fantasy-images-block__li"><a href="#">Mediterranean style</a></li>
+                            <li class="wild-fantasy-images-block__li"><a href="#">High tech</a></li>
+                            <li class="wild-fantasy-images-block__li"><a href="#">Eclecticism</a></li>
+                        </ul>
+                </div>
+                
                 <div class="images-block">
                     <div class="images-block__1">
-                        <img class="images-block__img"src="" alt="">
-                        <img class="images-block__img"src="" alt="">
+                        <img class="images-block__img" src="src/assets/img/Mask Groupx1.jpg" alt="" width="90%" height="70%">
+                        <img class="images-block__img" src="src/assets/img/Mask Groupx11.jpg" alt="" width="90%" height="60%">
                     </div>
                     <div class="images-block__2">
-                            <img class="images-block__img"src="" alt="">
-                            <img class="images-block__img"src="" alt="">
+                            <img class="images-block__img" src="src/assets/img/image 5x2.jpg" alt="" width="90%" height="50%">
+                            <img class="images-block__img" src="src/assets/img/Mask Groupx22.jpg" alt="" width="90%" height="70%">
                     </div>       
+                </div>
                 </div>
             </div> 
         </section>
         <section class="design-project-section">
                 <div class="section-head">
                     <h3 class="section-head__heading">design project</h3>
-                    <img class="section-head__img" src="" alt="" >
+                    <div class="section-head__img-div">
+                            <span class="section-head__line"></span>
+                            <img class="section-head__img" src="src/assets/img/Group.svg" alt="" >
+                            <span class="section-head__line"></span>
+                    </div>
                 </div>
                 <p class="section-head-text">Design project not only helps to make the repair of your apartment more modern, but also significantly reduces the cost of materials and reduces the time of repair work.</p>
                 <div class="Type-Container">
                     <div class="Type-Block">
-                        <img src="" alt="" class="Type-Block__img">
+                        <div class="Type-Block__div-img">
+                                <img  class="Type-Block__img" src="src/assets/img/mask.jpg" alt="">
+                                <div class="Type-Block__shadow"></div>
+                        </div>
+                        
                         <ul class="Type-Block__ul">
                                 Mini
                             <li class="Type-Block__li">Measurement drawing</li>
@@ -251,7 +296,10 @@
                         <button class="Type-Block__button">from 150 rub / m2</button>
                     </div>
                     <div class="Type-Block">
-                            <img src="" alt="" class="Type-Block__img">
+                            <div class="Type-Block__div-img">
+                                    <img  class="Type-Block__img" src="src/assets/img/mask3.jpg" alt="">
+                                    <div class="Type-Block__shadow"></div>
+                            </div>
                             <ul class="Type-Block__ul">
                                     Standard
                                 <li class="Type-Block__li">Measurement drawing</li>
@@ -265,10 +313,13 @@
                             <button class="Type-Block__button">from 400 rub / m2</button>
                     </div>
                     <div class="Type-Block">
-                            <img src="" alt="" class="Type-Block__img">
+                            <div class="Type-Block__div-img">
+                                    <img  class="Type-Block__img" src="src/assets/img/image 3.1333.jpg" alt="">
+                                    <div class="Type-Block__shadow"></div>
+                            </div>
                             <ul class="Type-Block__ul">
                                     Full
-                                    li class="Type-Block__li">Measurement drawing</li>
+                                    <li class="Type-Block__li">Measurement drawing</li>
                                     <li class="Type-Block__li">Redevelopment</li>
                                     <li class="Type-Block__li">Layout of furniture</li>
                                     <li class="Type-Block__li">Plan of ceilings</li>
@@ -287,9 +338,10 @@
                 </div>
         </section>
         <section class="how-we-are-working-section">
-                <p class="how-we-are-working__p-text">How we are working</p>
+                
                     <div class="steps-container">
                         <div class="steps-info">
+                            <p class="how-we-are-working__p-text">How we are working</p>
                             <div class="heading">
                                 <h3 class="heading__steps">6 steps to the goal</h3>
                                 <span class="heading__line_long"></span>
@@ -344,20 +396,85 @@
                                     <p class="steps-block__p-text">Приемка-сдача работ</p>
                                 </div>
                             </div>
-                            <img class ="steps-with-image__img" src="" alt="">
+                            <img class ="steps-with-image__img" src="src/assets/img/Mask Grouphigh.jpg" alt="">
                         </div>
                     </div>
         </section>
         <section class="our-team-section">
                 <div class="section-head">
+                    <h3 class="section-head__heading">Our team</h3>
+                    <div class="section-head__img-div">
+                            <span class="section-head__line"></span>
+                            <img class="section-head__img" src="src/assets/img/crown.svg" alt="" >
+                            <span class="section-head__line"></span>
+                    </div>
+                </div>
+                <p class="section-head-text">Our team has helped to become happier for more than 500 families and we are not going to stop</p>
+
+                <div class="team-members-block">
+                            <div class="member-Block">
+                                <div class="member-Block__div-img">
+                                        <img  class="Type-Block__img-svg" src="src/assets/img/Group 22brain.svg" alt="">
+                                        <img  class="Type-Block__img" src="src/assets/img/image 6DIMA.jpg" alt="">
+                                        <div class="Type-Block__inner-div">
+                                            <div class="Type-Block__name">
+                                                    <p class="Type-Block__p-name">Dmitry Tulyakov</p>
+                                                    <p class="Type-Block__p-job">Project manager</p>
+                                            </div>
+                                            <div class="Type-Block__job">Work experience 8 years</div>
+                                        </div>   
+                                </div>
+                            </div>
+                            <div class="member-Block">
+                                    <div class="member-Block__div-img">
+                                            <img  class="Type-Block__img-svg" src="src/assets/img/Group 16.3pen.svg" alt="">
+                                            <img  class="Type-Block__img" src="src/assets/img/image 8Larisa.jpg" alt="">
+                                            <div class="Type-Block__inner-div">
+                                                <div class="Type-Block__name">
+                                                    <p class="Type-Block__p-name">Larisa Kotlyarova</p>
+                                                    <p class="Type-Block__p-job">Designer</p>
+                                                </div>
+                                                <div class="Type-Block__job">Work experience 6 years</div>
+                                            </div>   
+                                    </div>
+                            </div>
+                            <div class="member-Block">
+                                        <div class="member-Block__div-img">
+                                                <img  class="Type-Block__img-svg" src="src/assets/img/Group 23case.svg" alt="">
+                                                <img  class="Type-Block__img" src="src/assets/img/image 8Leha.jpg" alt="">
+                                                <div class="Type-Block__inner-div">
+                                                    <div class="Type-Block__name">
+                                                            <p class="Type-Block__p-name">Alexey Efimov</p>
+                                                            <p class="Type-Block__p-job">Foreman</p>
+                                                    </div>
+                                                    <div class="Type-Block__job">Work experience 12 years</div>
+                                                </div>   
+                                        </div>
+                                </div>
+                            
+                            </div>
+                        
+                            <span class="line-mid"></span>
+                            <p class="control-text">At each facility, a camera is installed that broadcasts the progress of work on the clock. At any time, you can go to our website and monitor the progress of work in your apartment. You can watch the live broadcast from one of our facilities! Leave a request below and you will receive a link to the broadcast.</p>
+        </section>
+        <section class="our-clients-section">
+                <div class="section-head">
                     <h3 class="section-head__heading">Our clients</h3>
-                    <img class="section-head__img" src="" alt="" >
+                    <div class="section-head__img-div">
+                            <span class="section-head__line"></span>
+                            <img class="section-head__img" src="src/assets/img/Group 43client.svg" alt="" >
+                            <span class="section-head__line"></span>
+                    </div>
                 </div>
                 <p class="section-head-text">80% of our customers recommend us to their friends and family.</p>
+                
                 <div class="clients-members-block">
                     <div class="client-block">
-                        <img class ="client-block__icon"src="" alt="">
-                        <p class="client-block__name">Fedosova Maria Konstantinovna</p>
+                        <div class="icon-block">
+                            <img class ="client-block__icon" src="src/assets/img/Mask Groupmaria.jpg" alt="">
+                            <p class="client-block__name">Fedosova Maria Konstantinovna</p>
+                        </div>
+                        
                         <p class="client-block__p-text">I want to thank the guys for their work. we put your shower part in repair. I am very grateful that I referred to the repair as to my own. Great thanks i express the project to Georgia for its professionalism and approach. The repair process was turned out in terms, faster than anticipated. Team mobile and professional. Works performed qualitatively without comments. Quality satisfied. Prices democratic. I recommend these masters.</p>
                         <div class="materials-work">
                             <div class="materials-work__materials">
@@ -369,8 +486,10 @@
                         </div>
                     </div>
                     <div class="client-block">
-                            <img class ="client-block__icon"src="" alt="">
-                            <p class="client-block__name">Afanasyev Sergey Alexandrovich</p>
+                            <div class="icon-block">
+                                <img class ="client-block__icon" src="src/assets/img/Mask Groupsergey.jpg" alt="">
+                                <p class="client-block__name">Afanasyev Sergey Alexandrovich</p>
+                            </div>
                             <p class="client-block__p-text">I want to thank the guys for their work. we put your shower part in repair. I am very grateful that I referred to the repair as to my own. Great thanks i express the project to Georgia for its professionalism and approach. The repair process was turned out in terms, faster than anticipated. Team mobile and professional. Works performed qualitatively without comments. Quality satisfied. Prices democratic. I recommend these masters.</p>
                             <div class="materials-work">
                                 <div class="materials-work__materials">
@@ -382,8 +501,11 @@
                             </div>
                     </div>
                     <div class="client-block">
-                            <img class ="client-block__icon"src="" alt="">
-                            <p class="client-block__name">Kiriev Egor Leonidovich</p>
+                            <div class="icon-block">
+                                <img class ="client-block__icon" src="src/assets/img/Mask Groupegor.jpg" alt="">
+                                <p class="client-block__name">Kiriev Egor Leonidovich</p>
+                            </div>
+                            
                             <p class="client-block__p-text">I want to thank the guys for their work. we put your shower part in repair. I am very grateful that I referred to the repair as to my own. Great thanks i express the project to Georgia for its professionalism and approach. The repair process was turned out in terms, faster than anticipated. Team mobile and professional. Works performed qualitatively without comments. Quality satisfied. Prices democratic. I recommend these masters.</p>
                             <div class="materials-work">
                                 <div class="materials-work__materials">
@@ -394,34 +516,37 @@
                                 </div>
                             </div>
                     </div>
-                <div class="section-footer-images">
-                    <img class="section-footer-img" src="" alt="" >
-                    <img class="section-footer-img" src="" alt="" >
-                </div>
         </section>
         <section class="location">
             <div class="form-for-questions">
                     <form class="black-form2" action="" method="get">
                             <p class="black-form2__p-text">have any questions?</p>
-                            <label class ="black-form2__label"for="name">Name</label>
+                            <label class ="black-form2__label-name"for="name">Name</label>
                             <input class ="black-form2__text-input" type="text" name="lname" id="name" placeholder="What is your name:">
                             <label class ="black-form2__label"for="phone">Phone</label>
                             <input class ="black-form2__text-input" type="phone" name="phone" id="phone" placeholder="Your phone number:">
                             <label class ="black-form2__label"for="question">Question</label>
                             <input class ="black-form2__text-input" type="text" name="question" id="question" placeholder="I want to know:">
-                            <input class ="black-form2__check" type="checkbox" id="check" reqiured >
-                            <label class = "black-form2__check-label"for="check">I agree to the processing of personal data</label>
+                            <div class="check">
+                                    <div class="squaredThree">
+                                            <input type="checkbox" value="None" id="squaredThree" name="check" checked />
+                                            <label for="squaredThree"></label>
+                                    </div>
+                                    <input class ="black-form2__check" type="checkbox" id="check" reqiured >
+                                    <label class = "black-form2__check-label"for="check">I agree to the processing of personal data</label>        
+                            </div>
                             <input class ="black-form2__text-submit"type="submit" value="Submit">
                         </form>
             </div>
             <div class="info-location-block">
                 <p class="info-location-block__p-text">Rostov-on-Don, Nansen St., 239 Shopping Center Decorum Tel +7 (928) 768 32 29</p>
                 <div class="info-location-block__icons">
-                    <img class="info-location-block__icon" src="" alt="" >
-                    <img class="info-location-block__icon" src="" alt="" >
+                    <img class="info-location-block__icon" src="src/assets/img/Group 3mes.svg" alt="" >
+                    <img class="info-location-block__icon" src="src/assets/img/Group 4inst.svg" alt="" >
                 </div>
+                <img class="map" src="src/assets/img/Mask Groupmap.jpg" alt="" >
             </div>
-            <img class="map" src="" alt="" >
+            
         </section>
    </main>
    <footer class="footer">
