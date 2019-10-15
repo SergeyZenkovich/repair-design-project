@@ -67,6 +67,11 @@
                         Only a small part of the work performed by our company is presented on the site. For 14 years on in the construction market we have made happy more than 1000 families
                     </p>
                     <div class="info-elements">
+                        <div class="slider-info">
+                                <img class="slider-small-prev" src="src/assets/img/Group 8.8prevSlider.svg" alt="next">
+                                <img class="slider-small-next" src="src/assets/img/Group 8.9nextSlider.svg" alt="next">
+                                <img class ="project-slider__img" src="src/assets/img/slider2.jpg" alt="second-view">
+                        </div> 
                         <div class="info-elements__info-element">
                             <h4 class="info-elements__heading">City:</h4>
                             <p class="info-elements__p-text">Rostov-on-Don LCD admiral</p>
@@ -111,15 +116,15 @@
                 </div>
                 
             </div>
-            <iframe width="70%" height="500" src="https://www.youtube.com/embed/Gi5pCRt2Ns4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="75%" height="500" src="https://www.youtube.com/embed/Gi5pCRt2Ns4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <span class="line-mid"></span>
             <p class="control-text">At each facility, a camera is installed that broadcasts the progress of work on the clock. At any time, you can go to our website and monitor the progress of work in your apartment. You can watch the live broadcast from one of our facilities! Leave a request below and you will receive a link to the broadcast.</p>
             <form class="two-Field-Form" action="" method="get">
                 <div class="two-Field-Form__div">
                     <label class ="two-Field-Form__label"for="name">Name</label>
-                    <input class ="two-Field-Form__text-input" type="text" name="lname" id="name" placeholder="What is your name:">
+                    <input class ="two-Field-Form__text-input" type="text" name="lname" id="name" placeholder="What is your name:" required pattern="[A-z]{2,}">
                     <label class ="two-Field-Form__label"for="phone">Phone</label>
-                    <input class ="two-Field-Form__text-input" type="tel" name="phone" id="phone" placeholder="Your phone number:">
+                    <input class ="two-Field-Form__text-input" type="tel" name="phone" id="phone" placeholder="Your phone number:" required pattern="[+][0-9]{8,12}">
                     <input class ="two-Field-Form__text-submit"type="submit" value="SUBMIT">
                 </div>
                     
@@ -212,11 +217,11 @@
                         <form class="black-form" action="" method="get">
                                 <p class="black-form__p-text">Leave a request for free departure of the measurer</p>
                                 <label class ="black-form__label"for="name">Name</label>
-                                <input class ="black-form__text-input" type="text" name="lname" id="name" placeholder="What is your name:">
+                                <input class ="black-form__text-input" type="text" name="lname" id="name" placeholder="What is your name:" required pattern="[A-z]{2,}">
                                 <label class ="black-form__label"for="phone">Phone</label>
-                                <input class ="black-form__text-input" type="phone" name="phone" id="phone" placeholder="Your phone number:">
+                                <input class ="black-form__text-input" type="phone" name="phone" id="phone" placeholder="Your phone number:" required pattern="[+][0-9]{8,12}">
                                 <label class ="black-form__label"for="email">Email</label>
-                                <input class ="black-form__text-input" type="email" name="phone" id="email" placeholder="Your email:">
+                                <input class ="black-form__text-input" type="email" name="email" id="email" placeholder="Your email:" required >
 
 
                                 <div class="check">
@@ -224,7 +229,7 @@
                                                 <input type="checkbox" value="None" id="squaredThree" name="check" checked />
                                                 <label for="squaredThree"></label>
                                         </div>
-                                        <input class ="black-form__check" type="checkbox" id="check" reqiured >
+                                        <input class ="black-form__check" type="checkbox" id="check" required >
                                         <label class = "black-form__check-label"for="check">I agree to the processing of personal data</label>        
                                 </div>
                                 <input class ="black-form__text-submit"type="submit" value="Call the measurer">
@@ -257,13 +262,18 @@
                 </div>
                 
                 <div class="images-block">
+                        <div class="slider-info">
+                                <img class="slider-small-prev" src="src/assets/img/Group 8.8prevSlider.svg" alt="next">
+                                <img class="slider-small-next" src="src/assets/img/Group 8.9nextSlider.svg" alt="next">
+                                <img class ="project-slider__img" src="src/assets/img/Mask Groupx1.jpg" alt="second-view">
+                        </div> 
                     <div class="images-block__1">
-                        <img class="images-block__img" src="src/assets/img/Mask Groupx1.jpg" alt="" width="90%" height="70%">
-                        <img class="images-block__img" src="src/assets/img/Mask Groupx11.jpg" alt="" width="90%" height="60%">
+                        <img class="images-block__img" src="src/assets/img/Mask Groupx1.jpg" alt="" width="90%" height="65%">
+                        <img class="images-block__img" src="src/assets/img/Mask Groupx11.jpg" alt="" width="90%" height="50%">
                     </div>
                     <div class="images-block__2">
-                            <img class="images-block__img" src="src/assets/img/image 5x2.jpg" alt="" width="90%" height="50%">
-                            <img class="images-block__img" src="src/assets/img/Mask Groupx22.jpg" alt="" width="90%" height="70%">
+                            <img class="images-block__img" src="src/assets/img/image 5x2.jpg" alt="" width="90%" height="45%">
+                            <img class="images-block__img" src="src/assets/img/Mask Groupx22.jpg" alt="" width="90%" height="65%">
                     </div>       
                 </div>
                 </div>
@@ -522,17 +532,17 @@
                     <form class="black-form2" action="" method="get">
                             <p class="black-form2__p-text">have any questions?</p>
                             <label class ="black-form2__label-name"for="name">Name</label>
-                            <input class ="black-form2__text-input" type="text" name="lname" id="name" placeholder="What is your name:">
+                            <input class ="black-form2__text-input" type="text" name="lname" id="name" placeholder="What is your name:" required pattern="[A-z]{2,}">
                             <label class ="black-form2__label"for="phone">Phone</label>
-                            <input class ="black-form2__text-input" type="phone" name="phone" id="phone" placeholder="Your phone number:">
+                            <input class ="black-form2__text-input" type="phone" name="phone" id="phone" placeholder="Your phone number:" required pattern="[+][0-9]{8,12}">
                             <label class ="black-form2__label"for="question">Question</label>
-                            <input class ="black-form2__text-input" type="text" name="question" id="question" placeholder="I want to know:">
+                            <input class ="black-form2__text-input" type="text" name="question" id="question" placeholder="I want to know:" required>
                             <div class="check">
                                     <div class="squaredThree">
                                             <input type="checkbox" value="None" id="squaredThree" name="check" checked />
                                             <label for="squaredThree"></label>
                                     </div>
-                                    <input class ="black-form2__check" type="checkbox" id="check" reqiured >
+                                    <input class ="black-form2__check" type="checkbox" id="check" required >
                                     <label class = "black-form2__check-label"for="check">I agree to the processing of personal data</label>        
                             </div>
                             <input class ="black-form2__text-submit"type="submit" value="Submit">
